@@ -52,4 +52,6 @@ class FlaskConfig:
 
 
 class ModelConfig:
-    None
+    class GPT :
+        API_KEY = JsonConfig.get_data_model('GPT').get("API_KEY")
+ 
